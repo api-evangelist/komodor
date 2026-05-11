@@ -1,0 +1,65 @@
+aid: komodor
+name: Komodor
+description: >-
+  Komodor is an autonomous AI SRE platform for Kubernetes observability,
+  troubleshooting, and operations across multiple clusters. The platform
+  surfaces cluster events, deployment timelines, dependency maps, and
+  remediation runbooks to help platform and SRE teams diagnose incidents
+  faster. Komodor exposes a REST API plus a Terraform provider for managing
+  clusters, services, monitors, and policies, authenticated with API keys
+  generated from the User Settings page.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Kubernetes
+  - Observability
+  - SRE
+  - Troubleshooting
+  - DevOps
+  - Cloud Native
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/komodor/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: komodor:rest-api
+    name: Komodor REST API
+    description: >-
+      REST API for managing Komodor clusters, services, monitors, RBAC
+      policies, and integrations programmatically. Authentication uses an API
+      key generated from the API Keys tab in the User Settings page and
+      passed in the Authorization header.
+    humanURL: https://api.komodor.com/api/docs
+    baseURL: https://api.komodor.com
+    tags:
+      - Kubernetes
+      - Observability
+      - SRE
+      - Monitoring
+    properties:
+      - type: Documentation
+        url: https://docs.komodor.com
+      - type: Terraform Provider
+        url: https://registry.terraform.io/providers/komodorio/komodor/latest/docs
+      - type: GitHub Terraform Provider
+        url: https://github.com/komodorio/terraform-provider-komodor
+
+common:
+  - type: Website
+    url: https://komodor.com
+  - type: Documentation
+    url: https://docs.komodor.com
+  - type: GitHub Organization
+    url: https://github.com/komodorio
+  - type: Helm Charts
+    url: https://github.com/komodorio/helm-charts
+  - type: Pricing
+    url: https://komodor.com/pricing
+  - type: Sign Up
+    url: https://app.komodor.com/signup
+  - type: Learn
+    url: https://komodor.com/learn/kubernetes-observability/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
