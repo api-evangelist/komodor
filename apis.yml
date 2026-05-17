@@ -50,13 +50,13 @@ common:
     url: https://komodor.com
   - type: Documentation
     url: https://docs.komodor.com
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/komodorio
   - type: Helm Charts
     url: https://github.com/komodorio/helm-charts
   - type: Pricing
     url: https://komodor.com/pricing
-  - type: Sign Up
+  - type: SignUp
     url: https://app.komodor.com/signup
   - type: Learn
     url: https://komodor.com/learn/kubernetes-observability/
