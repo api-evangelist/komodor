@@ -46,6 +46,8 @@ apis:
         url: https://github.com/komodorio/terraform-provider-komodor
 
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/komodor-ltd
   - type: Website
     url: https://komodor.com
   - type: Documentation
