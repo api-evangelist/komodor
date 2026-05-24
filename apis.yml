@@ -62,6 +62,8 @@ common:
     url: https://app.komodor.com/signup
   - type: Learn
     url: https://komodor.com/learn/kubernetes-observability/
+  - type: LLMsTxt
+    url: https://komodor.com/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
