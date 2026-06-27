@@ -58,11 +58,11 @@ common:
     url: https://github.com/komodorio/helm-charts
   - type: Pricing
     url: https://komodor.com/pricing
-  - type: SignUp
+  - type: Signup
     url: https://app.komodor.com/signup
   - type: Learn
     url: https://komodor.com/learn/kubernetes-observability/
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://komodor.com/llms.txt
 maintainers:
   - FN: Kin Lane
