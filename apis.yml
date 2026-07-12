@@ -46,6 +46,8 @@ apis:
         url: https://github.com/komodorio/terraform-provider-komodor
 
 common:
+  - type: DomainSecurity
+    url: security/komodor-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/komodor-ltd
   - type: Website
@@ -64,6 +66,8 @@ common:
     url: https://komodor.com/learn/kubernetes-observability/
   - type: LlmsText
     url: https://komodor.com/llms.txt
+  - url: https://komodor.com/blog/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
