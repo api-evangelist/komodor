@@ -27,6 +27,13 @@ tags:
   - SRE
   - Troubleshooting
   - DevOps
+  - Cloud-Native
+tags_raw:
+  - Kubernetes
+  - Observability
+  - SRE
+  - Troubleshooting
+  - DevOps
   - Cloud Native
 url: >-
   https://raw.githubusercontent.com/api-evangelist/komodor/refs/heads/main/apis.yml
